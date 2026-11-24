@@ -1,0 +1,33 @@
+:root {
+  --theme-color: #e87a8d;
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  color: var(--theme-color);
+  border-bottom: dashed 0.1em var(--theme-color);
+}
+
+#result {
+  font-size: 24px;
+  margin: 30px 0;
+}
+
+button {
+  background: var(--theme-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
